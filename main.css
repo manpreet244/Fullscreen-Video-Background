@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+#videobg
+{
+    min-width:100%;
+    min-height:100%;
+    position:absolute;
+}
+.overlay{
+	width:100vw;
+	height:100vh;
+	position:absolute;
+    top:0;
+    left:0;
+    background:#130f40;
+    z-index:1;
+opacity:0.6;}
+section{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+.content{
+	text-align:center;
+	color:yellow;
+	z-index:2;
+	padding:1rems;}
+.content h1{
+	font-family: 'Langar';
+	font-size:60px;
+}	
+.content p{
+	font-family:Nerko One;
+	font-size:30px;
+	color:orange;
+}
